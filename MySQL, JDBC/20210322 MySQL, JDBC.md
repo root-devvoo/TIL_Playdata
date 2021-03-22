@@ -106,7 +106,9 @@ eXERD 기본키 설정 : Ctrl + shift + enter
 ![20210322_164342](https://user-images.githubusercontent.com/78403443/111961538-87553280-8b34-11eb-92b9-cbc3566e8fc8.png)
 ![20210322_164704](https://user-images.githubusercontent.com/78403443/111961560-8c19e680-8b34-11eb-8437-f17109226192.png)
 관계지정
+
 점선 - 비실체관계 - ⓕ일반속성 영역안 - 부서정보로 사원정보 모름
+
 실선 - 실체관계 - ⓕ기본속성 영역안 - 사원번호를 통해 사원정보 알 수 있다
 ![20210322_164828](https://user-images.githubusercontent.com/78403443/111961584-92a85e00-8b34-11eb-95dd-a21c0d14673c.png)
 일반키 설정: ctrl + Enter
