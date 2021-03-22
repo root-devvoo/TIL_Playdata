@@ -4,6 +4,7 @@
 3. 사용자 관점 시스템 활용도 > DB 모델링 > Business logic template
 
 **SQL문 실습 및 함수 사용**
+
 MySQL 함수관련 정리
 
 1. 문자 관련 함수 
