@@ -735,6 +735,8 @@ Confusion Matrix, 왜 이렇게 나왔을까...?
 
 열 인덱스는 predict(예측값)을 뜻한다.
 
+대각선 방향이 Accuracy(정답률)를 나타낸다.
+
 <br/>
 
 위 그림으로 보면
