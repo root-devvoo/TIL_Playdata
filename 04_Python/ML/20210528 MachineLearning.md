@@ -398,6 +398,8 @@ Inference Test는
 
 굉장히 광범위한 알고리즘이다.
 
+<br/>
+
 선호도 조사
 
 <br/>
@@ -436,7 +438,7 @@ Inference Test는
 
 <br/>
 
-사용자 정보를 얻는게 힘들고 연산량이 어마어마하기 때문에, **기업 입장에서는 상품 기반이 쉽다.**
+사용자 정보를 얻는게 힘들고 연산량이 어마어마하기 때문에, __기업 입장에서는 상품 기반이 쉽다.__
 
 <br/>
 
@@ -823,6 +825,12 @@ JSON 형식으로 변경(가공)해서 넣는다.
 k는 추천하는 책의 갯수... (키워드매개변수로 변경가능)
 
 ![image](https://user-images.githubusercontent.com/78403443/119948106-782aaf00-bfd3-11eb-92a0-8ad5ce6b3406.png)
+
+<br/>
+
+**Case 2. 지금 백설공주 책에 가장 관심이 있을 것 같은 사용자는?**
+
+![image](https://user-images.githubusercontent.com/78403443/119952043-8da1d800-bfd7-11eb-9804-cdaf048c8b9c.png)
 
 <br/>
 
