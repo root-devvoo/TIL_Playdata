@@ -243,3 +243,36 @@ Forwarding 과정...
 ![image](https://user-images.githubusercontent.com/78403443/120604815-60966f00-c488-11eb-987b-021d4bfdde76.png)
 
 지금까지 우리는 딥러닝 FCN 방법에 대해서 PDF의 중요한 내용과 함께 코드로 배웠다.
+
+<br/>
+
+---
+
+- **workshop폴더 deep01_iris_ws-2팀.ipynb 파일 보기**
+
+<br/>
+
+하이퍼 파라미터 input_size는 이미지데이터일 경우 속성의 값을 줘야하고, 
+
+(MNIST 데이터셋의 경우 28x28x1 이기 때문에 784, input_size = 784가 되겠다)
+
+그냥 데이터일 경우 컬럼의 개수로 넣어줘야한다.
+
+<br/>
+
+- **workshop폴더 deep01_titanic_ws-2팀.ipynb 파일 보기**
+
+![image](https://user-images.githubusercontent.com/78403443/120615198-ff27cd80-c492-11eb-9c1a-9ffa52d9efc2.png)
+
+Test 데이터에는 정답이 없기 떄문에 train_data, train_label에서 데이터와 라벨 나눠서
+
+학습시켜야... 한다는 점 (강조)
+
+<br/>
+
+---
+
+내일 CNN 들어감!
+
+
+
