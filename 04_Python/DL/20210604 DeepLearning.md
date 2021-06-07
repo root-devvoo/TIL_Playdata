@@ -649,9 +649,9 @@ Global Max Pooling은 원본이미지와 똑같은 크기의 Max Pooling... 그�
 
 <br/>
 
-뒷 부분은 Global Maxpooling이 들어가는 것이다.
+뒷 부분은 Global Max pooling이 들어가는 것이다.
 
-Global Maxpooling 들어가고 나서는 위 경우 사이즈 1x1x4096 나온다 (4096개의 특징으로 세세하게 분류했다는 얘기)
+Global Max pooling 들어가고 나서는 위 경우 사이즈 1x1x4096 나온다 (4096개의 특징으로 세세하게 분류했다는 얘기)
 
 4096개의 특징을 분류할 때는 쭉 펼쳐서 FCN 방식으로 분류해서 softmax 연산해서 1000개의 num classes로 들어가게 되는 것이다.
 
