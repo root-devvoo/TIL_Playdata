@@ -775,7 +775,7 @@ Zero padding을 안썼다.
 
 ![image](https://user-images.githubusercontent.com/78403443/121499353-44f70f80-ca18-11eb-9ebb-735a0a999e6f.png)
 
-(cell unet 이미지 출처 : [https://medium.com/@michaelsugimura/segmenting-medical-images-7b1f5e114f79](https://medium.com/@michaelsugimura/segmenting-medical-images-7b1f5e114f79)))
+(cell unet 이미지 출처 : [https://medium.com/@michaelsugimura/segmenting-medical-images-7b1f5e114f79](https://medium.com/@michaelsugimura/segmenting-medical-images-7b1f5e114f79))
 
 지금 이런걸 U-Net으로 만들었다고 생각하면 된다. 
 
@@ -834,3 +834,11 @@ Concatenation이 뭐냐? 붙인다는 뜻
 Concatenation을 진행하려면,
 
 Concat하는 애들끼리 사이즈는 같아야하지만, 채널은 달라도 상관없다.
+
+<br/>
+
+**@ 스터디 진행 중... U-Net 관련해서 참고하면 좋을 것 같은 이미지 추가**
+
+![Screenshot from 2021-03-16 23-30-32](https://user-images.githubusercontent.com/78403443/121502273-fa2ac700-ca1a-11eb-9569-e2719ac0c925.png)
+
+(이미지 출처 : https://velog.io/@guide333/U-Net-%EC%A0%95%EB%A6%AC)
