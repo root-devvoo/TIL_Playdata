@@ -32,7 +32,7 @@ google에서 제공하는 무료 GPU 서버 + Jupyter Notebook
 
 Computer vision 기반 
 
-1. Sementic Segmentation 
+1. Semantic Segmentation 
 
 2. Object Detection
 
@@ -68,7 +68,7 @@ Object Detection은 아카데믹 적 부분, 프로그램적인 부분 둘 다 �
    - 여기서 코드 하나 나옴! 모든 인공지능의 뼈대가 되는 코드, 간단한 코드
    - 해독을 먼저 해본다.
 
-2. Sementic Segmentation
+2. Semantic Segmentation
 
    - 코드 제공! 재사용성 보장되는 코드, 현업용
 
