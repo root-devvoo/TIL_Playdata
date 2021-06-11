@@ -43,25 +43,25 @@ Segmentation이라고 하면 픽셀에 해당하는 카테고리를 구분한다
 
 <br/>
 
-Segmentation은 Sementic Segmentation 기술, Instance Segmentation 기술이 있다.
+Segmentation은 Semantic Segmentation 기술, Instance Segmentation 기술이 있다.
 
 Instance Segmentation은 잘 쓰지 않음, 굳이 쓰지 않고, 바로 옆 Object Detection을 이용한다.
 
 <br/>
 
-여기서 말하는 Segmentation은 Sementic Segmentation 기술을 말한다.
+여기서 말하는 Segmentation은 Semantic Segmentation 기술을 말한다.
 
 <br/>
 
 Classification은 이미지 전체를 하나로 분류하는 것
 
-Sementic Segmentation은 각 영역의 픽셀값을 통해서 어느 영역에 해당하는지 알아내는 방법
+Semantic Segmentation은 각 영역의 픽셀값을 통해서 어느 영역에 해당하는지 알아내는 방법
 
 Classification + Localization은 Single Object Detection (그냥 무시... Object Detection을 Single로 할 일이 없기 때문)
 
 <br/>
 
-그래서 우리가 볼 것은 Classification(이미 배웠고), Sementic Segmentation(오늘부터 진행), Object Detection(다음에 진행)
+그래서 우리가 볼 것은 Classification(이미 배웠고), Semantic Segmentation(오늘부터 진행), Object Detection(다음에 진행)
 
 Computer Vision에서 가장 대표적인 Task
 
@@ -69,7 +69,7 @@ Computer Vision에서 가장 대표적인 Task
 
 <br/>
 
- Sementic Segmentation 기술, Instance Segmentation 기술 차이
+ Semantic Segmentation 기술, Instance Segmentation 기술 차이
 
 <br/>
 
@@ -79,7 +79,7 @@ Computation Cost가장 많이 든다는건 비싸고 가장 무거운 컴퓨터�
 
 <br/>
 
-Sementic Segmentation 개체 인식이 안된다, Computation Cost 두번째로 많이 든다.
+Semantic Segmentation 개체 인식이 안된다, Computation Cost 두번째로 많이 든다.
 
 Object Detection은 Instance Segmentation과 비슷한 기능이지만 Computation Cost가 가장 적게 든다.
 
@@ -251,7 +251,7 @@ BinaryEntropyLoss는 Binary문제 (이거 아니면, 저것)
 
 <br/>
 
-그래서 Sementic Segmentation에서 Evaluation(평가)을 어떻게 하는지 알아본다.
+그래서 Semantic Segmentation에서 Evaluation(평가)을 어떻게 하는지 알아본다.
 
 Evaluation Matrix를 통해서...
 
@@ -373,7 +373,7 @@ H, W는 서서히 줄어들었다가
 
 다시 원래 이미지 사이즈와 동일한 사이즈로
 
-H, W를 늘리는 것이 Sementic Segmentation의 원리가 나온 모티베이션이다.
+H, W를 늘리는 것이 Semantic Segmentation의 원리가 나온 모티베이션이다.
 
 <br/>
 
