@@ -5,7 +5,7 @@
   2) DB 서버 연결  - conn = DriverManager.getConnection(url, user, pass);
   3) PreparedStatement ps = conn.PrepareStatement
   4) Query문 실행
-    - ps.executeQuery() : Select 쿼리문 실행일 때 - Select(Query) - return type ResultSet >> 3월 18일자 에버노트에 참고하기
+    - ps.executeQuery() : Select 쿼리문 실행일 때 - Select(Query) - return type ResultSet >> 3월 18일자 에버노트에 참고하기<br>
     - ps.executeUpdate() : DML 쿼리문일때 사용 (쿼리문이 Insert, Delete, Update 일 때!)
 
 ※ Project시 작업 순서
@@ -63,10 +63,15 @@
   1) Actor == 사용자
   2) Usecase 기능 표시
   3) Relation(관계선 폴더) 4개
-    - Relation - Relation 선으로 Actor와 제품의 가장 중심적인 기능과 관계 맺어준다
-    - include - 우선순위(우선적인 기능 관계표시할 때 사용)
-    - Extend - 기능을 세분화 할 때 Extend 선으로 그려준다
-    - Generalization - Actor들간의 관계 표시할 때 사용 
+
+    - Relation 
+      - Relation 선으로 Actor와 제품의 가장 중심적인 기능과 관계 맺어준다
+    - include 
+      - 우선순위(우선적인 기능 관계표시할 때 사용)
+    - Extend 
+      - 기능을 세분화 할 때 Extend 선으로 그려준다
+    - Generalization 
+      - Actor들간의 관계 표시할 때 사용 
   
   - Usecase Diagram은 기능별로 나눠 그려야한다.
 
