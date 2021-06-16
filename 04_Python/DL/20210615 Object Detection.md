@@ -840,7 +840,7 @@ ver.2는 ver.1 부족한 점 보완 + anchor
 
 <br/>
 
-특히 anchor는 Faster-R-CNN을 참고함
+특히 anchor는 Faster R-CNN을 참고함
 
 <br/>
 
