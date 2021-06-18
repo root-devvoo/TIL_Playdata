@@ -850,14 +850,22 @@ SELECT문 잘 실행되어서 나왔다.
 
 ---
 
+![20210618_150637](https://user-images.githubusercontent.com/78403443/122553552-cbdc6580-d072-11eb-8d32-76e0351bf8f5.png)
+
 sp03_MyBatis_Sample 에서 다룬 내용을 바탕으로 
 
 sp04_MyBatis_Team & sp04_MyBatis_Team_sol 프로젝트 폴더에
 
 팀 작업으로 DB 테이블 CRUD를 다루어보았다. (코드 참고)
 
-(sp04_MyBatis_Team은 내가 한거+sol참고, sol은 잘하는 팀원분이 하신 거)
+(sp04_MyBatis_Team은 내가 한거+sol참고, sol은 잘하시는 반장님이 하신 거)
 
 <br/>
 
 팀 작업 통해서 오늘 한 내용이 정리가 되어야 월요일날 MyBatis 제대로 나갈 수 있다!
+
+<br/>
+
+3. 구조 그림<br>
+![제목 없음](https://user-images.githubusercontent.com/78403443/122553647-e9113400-d072-11eb-9a03-6f5d59393482.jpg)
+
