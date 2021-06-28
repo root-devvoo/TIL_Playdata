@@ -6,6 +6,8 @@ Transaction은 서버사이드 레이어 중에서 Business Logic부분과 관�
 
 <br/>
 
+- **sp05_Products 프로젝트 보기**
+
 ![image](https://user-images.githubusercontent.com/78403443/123590097-2620b780-d825-11eb-896a-b351ea383036.png)
 
 그리고 Annotation 기반으로 Transaction 처리
