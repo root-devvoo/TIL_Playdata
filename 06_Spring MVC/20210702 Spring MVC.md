@@ -42,4 +42,4 @@ Spring board 테이블에 auto increment 들어가있기 때문에 no 컬럼에 
 
 <br/>
 
-sp12_BoardTest 프로젝트 소스코드 보고 어떻게 돌아가는지 개인적으로 파악... (나중에도 또 보기)
+sp12_BoardTest 프로젝트(강사님 코드), sp12_BoardTest_My(본인이 스스로 한 코드)<br>프로젝트 소스코드 보고 어떻게 돌아가는지 개인적으로 파악... (나중에도 또 보기)
