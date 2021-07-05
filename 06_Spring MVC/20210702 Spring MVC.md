@@ -16,7 +16,7 @@ Restful API 적용... 마무리
 
 ---
 
-- **sp11_PhoneTest_Template 프로젝트**
+- **sp11_PhoneTest 프로젝트**
 
 삭제 기능 구현 PhoneList.jsp (비동기로 안한 경우..)
 
