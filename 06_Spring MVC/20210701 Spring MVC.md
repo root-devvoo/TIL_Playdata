@@ -6,7 +6,7 @@ JOIN을 MyBatis로 어떻게 쓰는지
 
 ---
 
-- **sp11_PhoneTest_Template 프로젝트 보기**
+- **sp11_PhoneTest 프로젝트 보기**
 
 ![image](https://user-images.githubusercontent.com/78403443/124070139-4eecbb00-da78-11eb-87ca-c5c8892f1125.png)
 
