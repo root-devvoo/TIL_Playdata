@@ -206,7 +206,7 @@ RequestMapping에서 get방식으로 할 때 반드시 알아야하는 중요한
 
 ---
 
-- **sp14_Restful_Booktest 프로젝트**
+- **sp14_Restful_BookTest 프로젝트**
 
 ![image](https://user-images.githubusercontent.com/78403443/124436844-60ec9780-ddb1-11eb-9ee2-0d823a669856.png)
 
