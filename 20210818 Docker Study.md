@@ -134,6 +134,8 @@ Push가 잘 되었다면 이렇게 지정해서 Push했던 태그명으로 추�
 
 **Back단 배포**
 
+**SpringBoot 서버**
+
 <br/>
 
 ![image](https://user-images.githubusercontent.com/78403443/129880218-2ed993c9-0104-44f3-846f-60dbbe640ba6.png)
@@ -162,7 +164,7 @@ war를 jar로 바꿔주었다.
 
 <br/>
 
-이제 maven을 설치한다.
+이제 maven을 설치한다. (이미 설치되어있다면 필요 없는 부분)
 
 ![image](https://user-images.githubusercontent.com/78403443/129880515-c0968cce-7e90-44f7-a2fc-dd3775b7eba1.png)
 
@@ -338,7 +340,9 @@ docker-compose.yml 파일을 위와 같이 내가 지정한 Docker 이미지에 
 
 docker-compose up 명령어를 쳐서 compose를 해준다.
 
-(오류때문에 AWS ec2로 이동해서 이미지 pull해서 위 과정 진행함)
+(오류때문에 AWS ec2로 이동해서 Front와 Springboot 이미지만 pull해서 위 과정 진행함)
+
+(Flask 서버는 용량이 너무 커서 AWS EC2 프리티어로는 택도 없음...)
 
 ![image](https://user-images.githubusercontent.com/78403443/129881891-6bcd8aae-1d3d-4cca-8cce-30d2b82c3bc3.png)
 
@@ -346,7 +350,7 @@ docker-compose up 명령어를 쳐서 compose를 해준다.
 
 ※ 여기서 참고사항
 
-docker-compose stop 이나 restart 로 하면 컨테이너가 안내려간다.
+docker-compose stop 이나 restart 로 하면 컨테이너가 안내려간 채로 정지되거나 재시작한다.
 
 (멈췄다가 다시 시작할 계획이 있을 때는 꼭 이 명령어를 쳐야한다)
 
@@ -354,7 +358,7 @@ docker-compose stop 이나 restart 로 하면 컨테이너가 안내려간다.
 
 아예 중단하면서 컨테이너도 함께 내릴 때는 docker-compose down 명령어를 사용한다.
 
-내렸다가 로그 출력 없이 다시 실행할 때는 docker-compose up -d 명령어를 사용한다.
+내려져 있는 상태에서 로그 출력 없이 다시 실행할 때는 docker-compose up -d 명령어를 사용한다.
 
 <br/>
 
