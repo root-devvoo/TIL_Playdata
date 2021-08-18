@@ -365,3 +365,37 @@ docker-compose stop 이나 restart 로 하면 컨테이너가 안내려간 채�
 ![image](https://user-images.githubusercontent.com/78403443/129881951-6039a3e9-cda8-480d-bdab-169443529844.png)
 
 EC2 서버에 요청한 페이지가 DB데이터와 함께 잘 나오는 것을 확인했다.
+
+<br/>
+
+---
+
+++ 추가
+
+<br/>
+
+모든 컨테이너 삭제하기
+
+docker stop $(docker ps -a -q)
+
+docker rm $(docker ps -a -q)
+
+<br/>
+
+모든 이미지 삭제하기
+
+docker rmi $(docker images -q)
+
+<br/>
+
+Exit 상태의 모든 컨테이너 삭제하기
+
+docker rm $(docker ps --filter 'status=exited' -a -q)
+
+<br/>
+
+선택지우기
+
+docker rmi 이미지id or 이름
+
+docker image rm 이미지id or 이름
